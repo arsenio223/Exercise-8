@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+   
+    "paths": {
+      "@/*": ["./src/*"],
+      "@lib/*": ["./src/lib/*"],
+      "@pages/*": ["./src/pages/*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", ".next"]
+}
